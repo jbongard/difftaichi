@@ -198,7 +198,7 @@ def compute_loss(t: ti.i32):
     loss[None] = -x[t, head_id][0]
 
 
-gui = ti.GUI("Mass Spring Robot", (512, 512), background_color=0xFFFFFF)
+gui = ti.GUI("Mass Spring Robot", (512, 512), background_color=0xFFFFFF, show_gui=False)
 
 
 def forward(output=None, visualize=True):
