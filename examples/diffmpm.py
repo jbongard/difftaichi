@@ -319,7 +319,7 @@ def robot(scene):
     scene.set_n_actuators(4)
 
 
-gui = ti.GUI("Differentiable MPM", (640, 640), background_color=0xFFFFFF)
+gui = ti.GUI("Differentiable MPM", (640, 640), background_color=0xFFFFFF, show_gui=False)
 
 
 def visualize(s, folder):
